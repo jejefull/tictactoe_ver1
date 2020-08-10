@@ -102,9 +102,6 @@ def get_PlayGame(mat,arg):
 
     return(get_verif_win(mat,arg))
 
-
-
-
 def get_verifEmpty(long,lag,mat):
     if(mat[long][lag])=='_':
         return True
